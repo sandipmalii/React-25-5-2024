@@ -17,7 +17,7 @@ function customRender(reactElement, container) {
     
     // Append to container
     container.appendChild(domElement);
-    */
+    */ 
 
     const domElement = document.createElement(reactElement.type)
     domElement.innerHTML = reactElement.children
@@ -28,6 +28,10 @@ function customRender(reactElement, container) {
     container.appendChild(domElement)
   }
   
+  
+  /* const anotherUser = "chai is ready" */
+
+
   const reactElement = {
     type: 'a',
     props: {
